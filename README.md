@@ -18,17 +18,17 @@ Follow these steps to set up a fresh Ubuntu/Debian server for this addon.
 
 ### 1. Install Node.js & NPM
 Run these commands to install the required environment:
-bash
+*bash
 sudo apt update
 curl -fsSL [https://deb.nodesource.com/setup_20.x](https://deb.nodesource.com/setup_20.x) | sudo -E bash -
 sudo apt install -y nodejs
 2. Install PM2 (Process Manager)
 PM2 ensures your addon stays online 24/7:
 
-Bash
+
 sudo npm install -g pm2
 3. Clone & Setup the Project
-Bash
+
 git clone [https://github.com/YOUR_USERNAME/stremio-vidking.git](https://github.com/YOUR_USERNAME/stremio-vidking.git)
 cd stremio-vidking
 npm install
