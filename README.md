@@ -18,7 +18,7 @@ Follow these steps to set up a fresh Ubuntu/Debian server for this addon.
 
 ### 1. Install Node.js & NPM
 Run these commands to install the required environment:
-```bash
+bash
 sudo apt update
 curl -fsSL [https://deb.nodesource.com/setup_20.x](https://deb.nodesource.com/setup_20.x) | sudo -E bash -
 sudo apt install -y nodejs
